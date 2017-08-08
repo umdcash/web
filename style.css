@@ -488,6 +488,23 @@ iframe{
   .container{
 	max-width:1170px;
 }
+.blocs-team-title{
+	color:#1d1d1d;
+	font-size:50px;
+	font-family:"Lato";
+	font-weight:300;
+}
+.blocs-team-header{
+	color:#1d1d1d;
+	font-size:38px;
+	font-family:"Lato";
+	font-weight:300;
+}
+.blocs-team-sub{
+	font-size:18px;
+	font-family:"Lato";
+	font-weight:500;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
