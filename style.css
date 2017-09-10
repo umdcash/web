@@ -193,10 +193,8 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* Bloc text custom styling */
 
-#hero-bloc h1{
-	font-size: 50px;
-	font-weight: 700;
-	font-family: Alef;
+#bloc-1 h5{
+	font-size: 28px;
 }
 #bloc-5 p{
 	font-size: 18px;
@@ -362,11 +360,17 @@ button{
 	outline: none!important;
 }
 
-.btn-clean{
-	border:1px solid rgba(0,0,0,.08);
-	border-bottom-color:rgba(0,0,0,.1);
-	text-shadow:0 1px 0 rgba(0,0,1,.1);
-	box-shadow: 0 1px 3px rgba(0,0,1,.25), inset 0 1px 0 0 rgba(255,255,255,.15);
+.btn-wire{
+	background:transparent!important;
+	border:2px solid transparent;
+}
+.btn-wire:hover{
+	background:transparent!important;
+	border:2px solid transparent;
+}
+.btn-xl{
+	padding: 16px 40px;
+	font-size: 28px;
 }
 .a-btn{
 	padding: 6px 10px 6px 0;
@@ -410,14 +414,6 @@ button{
 }
 
 
-/* = Text & Icon Styles
--------------------------------------------------------------- */
-.lg-shadow{
-	text-shadow:0 2px 5px rgba(0,0,0,.5);
-}
-.pressed-t{
-	text-shadow:0 1px 0 #FFF;
-}
 
 /* = Lists
 -------------------------------------------------------------- */
@@ -506,6 +502,12 @@ iframe{
 	font-family:"Lato";
 	font-weight:500;
 }
+.hero-bloc-text{
+	font-size:55px;
+}
+.hero-bloc-text-sub{
+	font-size:36px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -515,14 +517,11 @@ iframe{
 .bgc-lapis-lazuli{
 	background-color:#3A5998;
 }
-.bgc-dark-pastel-blue{
-	background-color:#7CAFDE;
+.bgc-white{
+	background-color:#ffffff;
 }
 .bgc-pansy-purple{
 	background-color:#811637;
-}
-.bgc-white{
-	background-color:#ffffff;
 }
 .bgc-lavender-blue{
 	background-color:#CDD7F3;
@@ -543,6 +542,21 @@ iframe{
 .btn-dark-pastel-green:hover{
 	background:#129016;
 	color:#FFFFFF!important;
+}
+
+/* Link colour styles */
+
+.ltc-outer-space{
+	color:#47454B!important;
+}
+.ltc-outer-space:hover{
+	color:#3b393e!important;
+}
+.ltc-white{
+	color:#ffffff!important;
+}
+.ltc-white:hover{
+	color:#ffffff!important;
 }
 
 /* Bloc image backgrounds */
